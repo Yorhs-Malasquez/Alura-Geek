@@ -1,0 +1,44 @@
+@import url('/assets/css/style.css');
+
+.container-producto{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.formulario-titulo{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form-footer{
+    text-align: center;
+}
+.btn-enviar{
+    font-size: 1.5rem;
+    padding: 1rem 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .logo{
+        margin-right: 2rem;
+     }
+ 
+     .header-section{
+         justify-content: flex-start;
+     }
+     .header-buscar{
+         width: 50%;
+     }
+     .input-buscar{
+         width:80%;
+     }  
+}
+
+@media screen and (min-width:1200px) {
+    #iniciar-sesion{
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+}
